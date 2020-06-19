@@ -19,7 +19,7 @@ data$DateTime <- strptime(data$DateTime, format = "%d/%m/%Y %H:%M:%S")
 
 # Plot 4 Construction
 
-png(filename = "figure/plot4.png", height = 480, width = 480, units = "px")
+png(filename = "plot4.png", height = 480, width = 480, units = "px")
 
 par(mfrow = c(2, 2))
 

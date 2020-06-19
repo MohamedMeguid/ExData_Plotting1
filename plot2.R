@@ -20,7 +20,7 @@ data$DateTime <- strptime(data$DateTime, format = "%d/%m/%Y %H:%M:%S")
 
 # Plot 2 Construction
 
-png(filename = "figure/plot2.png", height = 480, width = 480, units = "px")
+png(filename = "plot2.png", height = 480, width = 480, units = "px")
 
 with(data,
      plot(x = DateTime, y = Global_active_power,

@@ -19,7 +19,7 @@ data$DateTime <- strptime(data$DateTime, format = "%d/%m/%Y %H:%M:%S")
 
 # Plot 3 Construction
 
-png(filename = "figure/plot3.png", height = 480, width = 480, units = "px")
+png(filename = "plot3.png", height = 480, width = 480, units = "px")
 
 with(data,
      plot(x = DateTime, y = Sub_metering_1,
